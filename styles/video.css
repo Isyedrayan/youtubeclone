@@ -1,5 +1,4 @@
-no
-  .thumbnail {
+ .thumbnail {
    width: 100%;
    cursor: pointer;
   }
@@ -68,7 +67,8 @@ no
     .video-grid{
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-  .video-grid
+ }
+ .video-grid
   .video-time{
     background-color: black;
     color: white;
