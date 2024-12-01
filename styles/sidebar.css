@@ -30,3 +30,13 @@
     font-weight: 500;
 
 }
+
+@media (max-width: 750px) {
+  .sidebar {
+    width: 50px;
+  }
+  .sidebar-link {
+    font-size: 10px;
+    height: 60px;
+  }
+}
