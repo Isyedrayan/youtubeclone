@@ -196,4 +196,7 @@ cursor: pointer;
   .right-section {
     margin-right: 10px;
   }
+.channel-picture, .upload-icon {
+    width: 30px;
+ }
 }
