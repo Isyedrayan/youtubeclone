@@ -22,8 +22,3 @@ body{
   }
 }
 
-@media (max-width: 750px) {
-  .video-title, .video-author, .sidebar-link div {
-    font-size: 12px;
-  }
-}
