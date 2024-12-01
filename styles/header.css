@@ -1,4 +1,4 @@
-.header{
+by.header{
     height: 55px;
     
     
@@ -177,3 +177,23 @@ cursor: pointer;
  cursor: pointer;
 }
 
+
+
+@media (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .middle-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .search-bar {
+    width: 100%;
+    font-size: 14px;
+  }
+  .right-section {
+    margin-right: 10px;
+  }
+}
