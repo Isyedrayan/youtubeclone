@@ -65,6 +65,19 @@
   }
 }
 
+@media (max-width: 750px) {
+  .video-title, .video-author {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .channel-picture {
+    width: 40px;
+  }
+}
+
+
+
+
 
 @media (max-width:750px){
     .video-grid{
