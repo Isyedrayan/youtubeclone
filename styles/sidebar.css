@@ -30,3 +30,11 @@
     font-weight: 500;
 
 }
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        float: none;
+        padding: 5px;
+    }
+}
