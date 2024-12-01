@@ -1,4 +1,4 @@
-
+no
   .thumbnail {
    width: 100%;
    cursor: pointer;
@@ -54,25 +54,20 @@
     row-gap: 40px;
   } 
   
-@media (max-width: 767px) {
-    .video-grid {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width:750px){
     .video-grid{
-        width: 45%;
+      grid-template-columns: 1fr 1fr;
     }
-}
-
-@media (min-width: 1024px) {
-    .video-grid {
-        width: 30%;
-    }
-}
   }
-
+  @media (min-width:751px)and (max-width:999px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media (min-width:1000px){
+    .video-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   .video-grid
   .video-time{
     background-color: black;
